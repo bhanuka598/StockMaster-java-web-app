@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+     <servlet>
+     	<servlet-name>Product_insertServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Product_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Product_insertServlet</servlet-name>
+     	<url-pattern>/Product_insertServlet</url-pattern>
+     </servlet-mapping>
+
+
+     <servlet>
+     	<servlet-name>Product_viewServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Product_viewServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Product_viewServlet</servlet-name>
+     	<url-pattern>/Product_viewServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Product_updateServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Product_updateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Product_updateServlet</servlet-name>
+     	<url-pattern>/Product_updateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Product_deleteServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Product_deleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Product_deleteServlet</servlet-name>
+     	<url-pattern>/Product_deleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Purchase_insertServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Purchase_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Purchase_insertServlet</servlet-name>
+     	<url-pattern>/Purchase_insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Purchase_viewServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Purchase_viewServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Purchase_viewServlet</servlet-name>
+     	<url-pattern>/Purchase_viewServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Purchase_updateServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Purchase_updateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Purchase_updateServlet</servlet-name>
+     	<url-pattern>/Purchase_updateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Purchase_deleteServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Purchase_deleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Purchase_deleteServlet</servlet-name>
+     	<url-pattern>/Purchase_deleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>Supplier_insertServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.Supplier_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>Supplier_insertServlet</servlet-name>
+     	<url-pattern>/Supplier_insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>supplierViewServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.supplierViewServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>supplierViewServlet</servlet-name>
+     	<url-pattern>/supplierViewServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>supplierEditSerlvet</servlet-name>
+     	<servlet-class>stock_management_system_package.supplierEditSerlvet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>supplierEditSerlvet</servlet-name>
+     	<url-pattern>/supplierEditSerlvet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>SupplierDeleteServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.SupplierDeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>SupplierDeleteServlet</servlet-name>
+     	<url-pattern>/SupplierDeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>AdminInsertUserServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.AdminInsertUserServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AdminInsertUserServlet</servlet-name>
+     	<url-pattern>/AdminInsertUserServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>AdminViewServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.AdminViewServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AdminViewServlet</servlet-name>
+     	<url-pattern>/AdminViewServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>AdminEditUserServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.AdminEditUserServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AdminEditUserServlet</servlet-name>
+     	<url-pattern>/AdminEditUserServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>AdminDeleteUserServlet</servlet-name>
+     	<servlet-class>stock_management_system_package.AdminDeleteUserServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>AdminDeleteUserServlet</servlet-name>
+     	<url-pattern>/AdminDeleteUserServlet</url-pattern>
+     </servlet-mapping>
+
+</web-app>
